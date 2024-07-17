@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="ul-items">
+                <li class="item"><a href="/">Shop</a></li>
+                <li class="item"><a href="/add-product">Add Product</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <form action="/add-product" method="post" class="add-product-form">
+            <input class='input-filed' type="text" name="title" placeholder="Enter the title">
+            <input class='input-filed' type="text" name="imageURL" placeholder="Enter the imageURL">
+            <input class='input-filed' type="text" name="price" placeholder="Enter the price">
+            <button class="input-filed" type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
